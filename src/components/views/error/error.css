@@ -1,0 +1,54 @@
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--error-background);
+  padding: var(--bg-space);
+  text-align: center;
+  color: var(--color-dark);
+}
+
+.error-container {
+  background-color: var(--color-white);
+  padding: calc(var(--bg-space) + 10px) var(--bg-space);
+  border-radius: var(--md-border-radius);
+  box-shadow: var(--box-shadow);
+  max-width: 400px;
+  width: 100%;
+}
+
+.error-container h2 {
+  font-size: 2rem;
+  font-weight: var(--header-font-weight);
+  margin-bottom: var(--small-space);
+  color: var(--color-red);
+}
+
+.error-container p {
+  font-size: var(--small-font-size);
+  opacity: var(--subtext-opacity);
+  margin-bottom: var(--md-space);
+  line-height: 1.6;
+}
+
+.retry-button {
+  background-color: var(--color-red) !important;
+  color: var(--color-white) !important;
+  font-weight: 600 !important;
+  padding: var(--small-space) var(--bg-space) !important;
+  border-radius: var(--small-border-radius) !important;
+  box-shadow: 0 4px 12px rgba(239, 67, 67, 0.5) !important;
+  cursor: pointer !important;
+  transition: background-color var(--transition-duration) ease,
+              box-shadow var(--transition-duration) ease;
+  border: none !important;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.retry-button:hover {
+  opacity: var(--hover-opacity) !important;
+  box-shadow: 0 6px 16px rgba(239, 67, 67, 0.6) !important;
+}

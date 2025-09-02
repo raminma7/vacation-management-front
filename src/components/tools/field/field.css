@@ -1,0 +1,10 @@
+.field{
+  display:flex;
+  flex-direction:column;
+  gap:var(--xs-space);
+} 
+
+.field label{
+  font-size: var(--small-font-size);
+  font-weight:500;
+}

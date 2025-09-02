@@ -1,0 +1,9 @@
+.logo{
+  color: var(--color-light-blue);
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:var(--small-space);
+}

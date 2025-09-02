@@ -1,0 +1,50 @@
+:root {
+  /*------- base -------*/
+   --font-family: 'Poppins', Tahoma, Arial, sans-serif;
+
+  /*------- color -------*/
+  --color-dark-blue: #1e40af;
+  --color-light-blue:#3C83F6;
+  --color-green:#0d9488;
+  --color-orange:#d97706;
+  --color-gray: #f6f7f8;
+  --color-light-gray: #eeeeee;
+  --color-white:#ffffff;
+  --color-dark:#111;
+  --color-red:#EF4343;
+  --border-color:#E2E8F0;
+  --main-background-color:#f8f9fa;
+  --main-background-image:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e2e8f0' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --error-background:linear-gradient(
+    135deg,
+    #f8d7da,
+    #f5c6cb,
+    #f1b0b7,
+    #e996a5
+  );
+
+  /*------- font -------*/
+  --small-font-size:15px;
+  --header-font-size:24px;
+  --header-font-weight:650;
+  
+  /*------- space -------*/
+  --xs-space:5px;
+  --small-space:10px;
+  --md-space:20px;
+  --bg-space:30px;
+
+  /*------- transition -------*/
+  --transition-duration: 0.3s;
+
+  /*------- opacity -------*/
+  --subtext-opacity:0.7;
+  --hover-opacity: 0.8;
+
+  /*------- box Shadow -------*/
+  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  /*------- border -------*/
+  --small-border-radius: 6px;
+  --md-border-radius: 12px;
+}

@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:var(--font-family);
+  user-select:none;
+}
+
+a{
+  color:var(--color-light-blue);
+  text-decoration:none;
+}
+
+.container{
+  max-width:1120px;
+  margin:auto;
+}

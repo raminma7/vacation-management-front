@@ -1,0 +1,17 @@
+.panel-template{
+  background-color: var(--main-background-color);
+  background-image: var(--main-background-image);
+  min-height:100vh;
+}
+
+.panel-template .anel-template_title .panel-template_title__text{
+  font-size:var(--small-font-size);
+  font-weight: var(--header-font-weight);
+}
+
+.panel-template .panel-template_outlet{
+  margin-top: var(--md-space);
+  display:flex;
+  flex-direction:column;
+  gap:var(--md-space);
+}

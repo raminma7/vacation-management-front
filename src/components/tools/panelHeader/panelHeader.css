@@ -1,0 +1,22 @@
+.panel-header{
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--box-shadow);
+  padding: var(--small-space) 0;
+}
+
+.panel-header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-header_logout{
+  min-width: 100px;
+}
+
+.panel-header_logout .panel-header_logout__button{
+  background-color: var(--color-gray);
+  color: var(--color-dark);
+  border:1px solid var(--border-color)
+}

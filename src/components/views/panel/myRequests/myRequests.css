@@ -1,0 +1,120 @@
+.my-requests_list {
+  list-style: none;
+  padding: 0;
+  margin: var(--md-space) 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--small-space);
+}
+
+.request_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--md-space);
+  background-color: var(--color-white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--md-border-radius);
+  box-shadow: var(--box-shadow);
+  transition: transform var(--transition-duration), box-shadow var(--transition-duration);
+}
+
+.request_item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.request_item_content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--xs-space);
+  font-family: var(--font-family);
+}
+
+.status_badge {
+  padding: 3px 10px;
+  border-radius: var(--small-border-radius);
+  font-size: var(--small-font-size);
+  font-weight: 600;
+  color: var(--color-white);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.status_approved {
+  background-color: var(--color-green);
+}
+
+.status_pending {
+  background-color: var(--color-light-blue);
+}
+
+.status_rejected {
+  background-color: var(--color-red);
+}
+
+.status_cancelled {
+  background-color: var(--color-orange);
+}
+
+.request_item_content .note,
+.request_item_content .admin_note {
+  font-size: calc(var(--small-font-size) - 1px);
+  color: var(--color-dark);
+  opacity: var(--subtext-opacity);
+}
+
+.request_actions {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--xs-space);
+}
+
+.cancel_button {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border: none;
+  padding: 4px 10px;
+  border-radius: var(--small-border-radius);
+  font-size: var(--small-font-size);
+  cursor: pointer;
+  transition: all var(--transition-duration);
+}
+
+.cancel_button:hover {
+  opacity: var(--hover-opacity);
+}
+
+.no-requests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--md-space);
+  text-align: center;
+  color: var(--color-dark);
+}
+
+.no-requests_text {
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
+  margin-top: var(--sm-space);
+}
+
+.no-requests_subtext {
+  font-size: var(--small-font-size);
+  opacity: var(--subtext-opacity);
+  margin-top: var(--xs-space);
+  max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .request_item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .status_badge {
+    margin-top: var(--xs-space);
+  }
+}

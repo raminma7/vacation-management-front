@@ -1,0 +1,8 @@
+.info-card{
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--border-color);
+  border-radius: var(--md-border-radius);
+  min-width: 450px;
+  padding:0 var(--md-space) var(--md-space) var(--md-space);
+}
